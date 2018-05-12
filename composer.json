@@ -1,0 +1,15 @@
+{
+    "name": "egorlarionov1/abebooks",
+    "authors": [
+        {
+            "name": "egorlarionov1",
+            "email": "el.intertech@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Abebooks\\API\\": "src/"
+        }
+    }
+}
