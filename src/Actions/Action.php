@@ -11,7 +11,17 @@ namespace Abebooks\API\Actions;
 
 interface Action
 {
+    /**
+     * Get action name
+     *
+     * @return mixed
+     */
     public function getActionName();
 
+    /**
+     * Generate XML file
+     *
+     * @return mixed
+     */
     public function generateXml();
 }
